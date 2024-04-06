@@ -13,8 +13,9 @@ city_name = 'Paris'
 url = f'{base_url}?q={city_name}&appid={API_KEY}&units=metric'
 
 
-# Make a GET request to the API
+# Make a GET request to the API  which means that we are going to get data
 response = requests.get(url)
+
 
 
 # Check if the request was successful (status code 200)
